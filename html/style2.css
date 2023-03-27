@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white(142, 134, 134);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(60, 54, 54);
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
+.line {
+  height: 100%;
+  width: 5px;
+  background-color: grey;
+  margin-left: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background-color: grey;
+  height: 700px;
+}
+
+.container .sidebar {
+  width: 10%;
+  height: 100%;
+  background-color: rgb(212, 157, 89);
+}
+
+.container .sidebar .items {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+.container .main {
+  width: 90%;
+  padding: 10px;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(83, 24, 24);
+  text-align: center;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 100%;
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  gap: 80px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.section1 .card1 {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(103, 20, 20);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.section3 .card2 {
+  border: 2px solid black;
+  background-color: rgb(68, 57, 57);
+  display: flex;
+  padding: 8px;
+}
+
+.section3 .card2 img {
+  height: 130px;
+  width: 130px;
+}
+
+.section3 .card2 .content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 80px;
+  position: fixed;
+  text-align: center;
+}
